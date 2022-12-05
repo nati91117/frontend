@@ -1,6 +1,10 @@
-body {background-color: rgba(250, 107, 226, 0.363);}
+body {background-color: rgba(250, 107, 226, 0.363);
+      background-image: url(./imagenes/ruda6.jpg);
+      background-position: right;
+      background-attachment: fixed;
+      background-repeat: no-repeat;}
 
-.colorletra {color: rgb(7, 28, 95);text-decoration-line: underline;font-size:xxx-large}
+.colorletra {color: rgb(243, 10, 10);text-decoration-line: underline;font-size:xxx-large}
 
 .tamañoletra {font-size:x-large;}
 
@@ -16,4 +20,20 @@ body {background-color: rgba(250, 107, 226, 0.363);}
 
 .tradicion {text-decoration-line: underline}
 
+.wapp {width: 70px;
+       position: fixed;
+       bottom: 10px;
+       right: 15px;}
 
+.redes {width: 70px;}
+
+header {background-color: brown;}
+div {background-color: aqua;
+     height: 200px;
+     width: 750px;
+     overflow: auto;}
+section {background-color: blue;}
+aside {background-color: olivedrab;}
+footer {background-color: salmon;
+            }
+nav {background-color: mediumvioletred;}
