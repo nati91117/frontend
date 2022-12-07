@@ -1,5 +1,6 @@
 body {background-color: rgba(250, 107, 226, 0.363);
-      background-image: url(./imagenes/ruda6.jpg);
+      background-image: url(./imagenes/ruda6.jpg) ;
+      background-size: 40%;
       background-position: right;
       background-attachment: fixed;
       background-repeat: no-repeat;}
@@ -8,7 +9,11 @@ body {background-color: rgba(250, 107, 226, 0.363);
 
 .tamañoletra {font-size:x-large;}
 
-.just {text-align: center;text-decoration-color: red;}
+.just {text-align: center;
+      text-decoration-color: red;
+      border: black 5px solid;
+      background-color: rgba(137, 43, 226, 0.637);
+}
 
 .decoracion {text-decoration:red;font-size:larger}
 
@@ -27,13 +32,7 @@ body {background-color: rgba(250, 107, 226, 0.363);
 
 .redes {width: 70px;}
 
-header {background-color: brown;}
-div {background-color: aqua;
+div {
      height: 200px;
      width: 750px;
      overflow: auto;}
-section {background-color: blue;}
-aside {background-color: olivedrab;}
-footer {background-color: salmon;
-            }
-nav {background-color: mediumvioletred;}
